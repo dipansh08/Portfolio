@@ -1,0 +1,27 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Your First Project",
+      "description": "Project description here",
+      "technologies": ["Flutter", "Firebase"],
+      "category": "mobileApp",
+      "status": "completed",
+      "createdDate": "2024-01-15T00:00:00.000Z",
+      "features": ["Feature 1", "Feature 2"],
+      "isFeatured": true,
+      "priority": 1
+    }
+  ],
+  "skills": [
+    {
+      "id": "1",
+      "name": "Flutter",
+      "description": "Cross-platform development",
+      "category": "framework",
+      "level": "expert",
+      "yearsOfExperience": 3,
+      "isHighlighted": true
+    }
+  ]
+}
