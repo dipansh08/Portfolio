@@ -11,6 +11,7 @@ class ResponsiveText extends StatelessWidget {
   final TextOverflow? overflow;
   final TextStyle? style;
 
+  // ignore: use_super_parameters
   const ResponsiveText(
     this.text, {
     Key? key,

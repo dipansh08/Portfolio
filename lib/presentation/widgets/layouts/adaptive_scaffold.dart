@@ -12,7 +12,7 @@ class AdaptiveScaffold extends StatelessWidget {
   final bool showAppBarOnDesktop;
 
   const AdaptiveScaffold({
-    Key? key,
+    super.key,
     required this.body,
     this.appBar,
     this.drawer,
@@ -21,7 +21,7 @@ class AdaptiveScaffold extends StatelessWidget {
     this.floatingActionButton,
     this.useDrawerOnMobile = true,
     this.showAppBarOnDesktop = true,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

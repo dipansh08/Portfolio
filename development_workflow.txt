@@ -25,3 +25,91 @@ Phase 4: Deployment (Week 4)
     PWA features
     Deploy to hosting platform
     Set up analytics
+
+Directive Structure
+lib
+|- app
+    |- routes
+        |- app_routes.dart
+        |- route_generator.dart
+    |-theme
+        |- app_theme.dart
+        |- colors.dart
+        |- text_styles.dart
+    |-app.dart
+|- assets
+    |- data
+    |- fonts
+    |- images
+|- Core
+    |- constants
+        |- api_endpoints.dart
+        |- app_constants.dart
+        |- asset_paths.dart
+        |- portfolio_data.dart
+    |- extensions
+        |- context_extensions.dart
+        |- string_extensions.dart
+    |- utils
+        |- responsive_helper.dart
+        |- responsive_layout.dart
+        |- url_launcher.dart
+        |- validators.dart
+|- data
+    |- models
+        |- contact_info_model.dart
+        |- experience_model.dart
+        |- project_model.dart
+        |- skill_model.dart
+        |- social_link_model.dart
+    |- repositories
+        |- portfolio_repository.dart
+    |- services
+        |- analytics_service.dart
+        |- email_service.dart
+|- presentation
+    |- pages
+        |- home
+            |- widgets
+                |- about_section.dart
+                |- contact_section.dart
+                |- experience_section.dart
+                |- hero_section.dart
+                |- projects_section.dart
+                |- skills_Sections.dart
+            home_page.dart
+        |- project_details
+            |- widgets
+            project_details_page.dart
+    |- providers
+        |- navigation_provider.dart
+        |- portfolio_provider.dart
+        |- theme_provider.dart
+    |- widgets
+        |- cards
+            |- experience_card.dart
+            |- project_card.dart
+            |- skill_card.dart
+        |- common
+            |- animated_counter.dart
+            |- customer_button.dart
+            |- loading_widget.dart
+            |- responsive_container.dart
+            |- responsive_row.dart
+            |- responsive_text.dart
+            |- resposive_wrapper.dart
+        |- layouts
+            |- adaptive_scaffold.dart
+        |- navigation
+            |- app_bar.dart
+            |- footer.dart
+            |- side_drawer.dart
+    example_responsive_page.dart
+|- shared
+    |- mixins
+        |- scroll_behaviour.dart
+    |- widgets
+        |- fade_in_animation.dart
+        |- parllax_background.dart
+        |- typing_animation.dart
+|-main.dart
